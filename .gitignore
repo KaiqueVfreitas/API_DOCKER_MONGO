@@ -1,0 +1,66 @@
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Swap the comments on the following lines if you wish to use zero-installs
+# In that case, don't forget to run `yarn config set enableGlobalCache false`!
+# Documentation here: https://yarnpkg.com/features/caching#zero-installs
+
+#!.yarn/cache
+.pnp.*
+# Node.js / npm
+node_modules/
+npm-debug.log
+yarn.lock         # Caso alguém use Yarn por engano
+package-lock.json # Remova se quiser versionar (geralmente é melhor versionar)
+.pnpm-debug.log   # Caso use pnpm
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs e diretórios de debug
+logs/
+*.log
+*.pid
+*.seed
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Build do React (se tiver frontend)
+build/
+dist/
+.next/           # Next.js
+out/             # Next.js / Vercel
+
+# Cache
+.cache/
+.temp/
+
+# Banco de dados local (SQLite, etc.)
+*.db
+*.sqlite
+*.sqlite3
+
+# Arquivos do sistema
+Thumbs.db
+.Trashes
+
+# Testes / Coverage
+coverage/
+.nyc_output/
+
+# Editor específico (JetBrains, VSCode)
+.idea/
+.vscode/
+*.swp
+# MongoDB
+data/db/   
