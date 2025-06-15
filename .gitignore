@@ -17,6 +17,7 @@ npm-debug.log
 yarn.lock         # Caso alguém use Yarn por engano
 package-lock.json # Remova se quiser versionar (geralmente é melhor versionar)
 .pnpm-debug.log   # Caso use pnpm
+package-lock.json
 
 # Variáveis de ambiente
 .env
